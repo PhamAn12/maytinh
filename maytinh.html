@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Máy Tính</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js"></script>
+</head>
+<body>
+	<div class="bg"></div>
+	<div class="main">
+		<form action="" name = "form">
+			<input type="text" class= "result" id="result">
+		</form>
+		<table>
+			<tr>
+				<td><input class="button" type="button" value="1" onclick="insertNum(1)"></td>
+				<td><input class="button" type="button" value="2" onclick="insertNum(2)"></td>
+				<td><input class="button" type="button" value="3" onclick="insertNum(3)"></td>
+				<td><input class="button" type="button" value="+" onclick="insertNum('+')"></td>
+			</tr>
+			<tr>
+				<td><input class="button" type="button" value="4" onclick="insertNum(4)"></td>
+				<td><input class="button" type="button" value="5" onclick="insertNum(5)"></td>
+				<td><input class="button" type="button" value="6" onclick="insertNum(6)"></td>
+				<td><input class="button" type="button" value="-" onclick="insertNum('-')"></td>
+			</tr>
+			<tr>
+				<td><input class="button" type="button" value="7" onclick="insertNum(7)"></td>
+				<td><input class="button" type="button" value="8" onclick="insertNum(8)"></td>
+				<td><input class="button" type="button" value="9" onclick="insertNum(9)"></td>
+				<td><input class="button" type="button" value="x" onclick="insertNum('*')"></td>
+			</tr>
+			<tr>
+				<td><input class="button" type="button" value="C" onclick="clean()"></td>
+				<td><input class="button" type="button" value="<" onclick="back()"></td>
+				<td><input class="button" type="button" value="/" onclick="insertNum('/')"></td>
+				<td><input class="button" type="button" value="=" onclick="calculate()"></td>
+			</tr>
+		</table>
+	</div>
+	
+</body>
+</html>

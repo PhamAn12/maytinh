@@ -8,6 +8,18 @@
 	font-size :20px;
 	cursor: pointer;
 }
+.button0 {
+	width: 103px;
+	height: 50px;
+	font-size :20px;
+	cursor: pointer;
+}
+.buttonCal {
+	width: 50px;
+	height: 101px;
+	font-size :20px;
+	cursor: pointer;
+}
 .result {
     width: 202px;
     height: 30px;
@@ -21,6 +33,7 @@
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
 }
+
 .bg {
 	background: linear-gradient(to right, red, blue);
 	height: 2000px;

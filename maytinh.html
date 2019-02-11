@@ -10,11 +10,11 @@
 	<div class="bg"></div>
 	<div class="main">
 		<form action="" name = "form">
-			<input type="text" class= "result" id="result">
+			<input type="text" class= "result" id="result" value="0">
 		</form>
 		<table>
 			<tr>
-				<td><input class="button" type="button" value="1" onclick="insertNum(1)"></td>
+				<td><input class="button" id="btn" type="button" value="1" onclick="insertNum(1)"></td>
 				<td><input class="button" type="button" value="2" onclick="insertNum(2)"></td>
 				<td><input class="button" type="button" value="3" onclick="insertNum(3)"></td>
 				<td><input class="button" type="button" value="+" onclick="insertNum('+')"></td>
@@ -35,7 +35,11 @@
 				<td><input class="button" type="button" value="C" onclick="clean()"></td>
 				<td><input class="button" type="button" value="<" onclick="back()"></td>
 				<td><input class="button" type="button" value="/" onclick="insertNum('/')"></td>
-				<td><input class="button" type="button" value="=" onclick="calculate()"></td>
+				<td rowspan="5"><input class="buttonCal" type="button" value="=" onclick="calculate()"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="button0" type="button" value="0" onclick = "insertNum(0)"></td>
+				<td><input class="button" type="button" value="." onclick = "insertNum('.')"></td>
 			</tr>
 		</table>
 	</div>
